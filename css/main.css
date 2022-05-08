@@ -811,7 +811,7 @@ a:hover, a:focus {
   display: flex;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-  margin: -30px;
+  margin: -15px;
 }
 
 .portfolio-card {
