@@ -57,31 +57,35 @@
                 <h1 class="is-hidden">Наши проекты</h1>
                 <ul class="button__portfolio-set">
                     <li>
-                        <input class="radio is-hidden" id="filter__all" type="radio" name="portfolio-filter">
+                        <input class="radio is-hidden" id="filter__all" type="radio" name="portfolio-filter"
+                            value="filter_all" checked>
                         <label class="button-portfolio" for="filter__all">Все</label>
                     </li>
                     <li>
-                        <input class="radio is-hidden" id="filter__web" type="radio" name="portfolio-filter">
+                        <input class="radio is-hidden" id="filter__web" type="radio" name="portfolio-filter"
+                            value="filter_web">
                         <label label class="button-portfolio" for="filter__web">Веб-сайты</label>
                     </li>
                     <li>
-                        <input class="radio is-hidden" id="filter__app" type="radio" name="portfolio-filter">
+                        <input class="radio is-hidden" id="filter__app" type="radio" name="portfolio-filter"
+                            value="filter_app">
                         <label class="button-portfolio" for="filter__app">Приложения</label>
                     </li>
                     <li>
-                        <input class="radio is-hidden" id="filter__design" type="radio" name="portfolio-filter">
+                        <input class="radio is-hidden" id="filter__design" type="radio" name="portfolio-filter"
+                            value="filter_design">
                         <label class="button-portfolio" for="filter__design">Дизайн</label>
                     </li>
                     <li>
-                        <input class="radio is-hidden" class="is-hidden" id="filter__marketing" type="radio"
-                            name="portfolio-filter">
+                        <input class="radio is-hidden" id="filter__marketing" type="radio" name="portfolio-filter"
+                            value="filter_marketing">
                         <label class="button-portfolio" for="filter__marketing">Маркетинг</label>
                     </li>
 
                 </ul>
 
                 <ul class="portfolio-card-set">
-                    <li class="portfolio-card">
+                    <li class="portfolio-card" filter-web>
                         <a class='' href="">
                             <div class="card__thumb">
                                 <img src="./images/portfolio/portfolio-1.jpg" alt="Пример разработанного сайта"
@@ -98,7 +102,7 @@
                             </div>
                         </a>
                     </li>
-                    <li class="portfolio-card">
+                    <li class="portfolio-card" filter-design>
                         <a class='link' href="">
                             <div class="card__thumb">
                                 <img src="./images/portfolio/portfolio-2.jpg"
@@ -116,7 +120,7 @@
                             </div>
                         </a>
                     </li>
-                    <li class="portfolio-card">
+                    <li class="portfolio-card" filter-app>
                         <a class='link' href="">
                             <div class="card__thumb">
                                 <img src="./images/portfolio/portfolio-3.jpg"
@@ -133,7 +137,7 @@
                             </div>
                         </a>
                     </li>
-                    <li class="portfolio-card">
+                    <li class="portfolio-card" filter-marketing>
                         <a class='link' href="">
                             <div class="card__thumb">
                                 <img src="./images/portfolio/portfolio-4.jpg"
@@ -150,7 +154,7 @@
                             </div>
                         </a>
                     </li>
-                    <li class="portfolio-card">
+                    <li class="portfolio-card" filter-app>
                         <a class='link' href="">
                             <div class="card__thumb">
                                 <img src="./images/portfolio/portfolio-5.jpg"
@@ -167,7 +171,7 @@
                             </div>
                         </a>
                     </li>
-                    <li class="portfolio-card">
+                    <li class="portfolio-card" filter-web>
                         <a class='link' href="">
                             <div class="card__thumb">
                                 <img src="./images/portfolio/portfolio-6.jpg"
@@ -184,7 +188,7 @@
                             </div>
                         </a>
                     </li>
-                    <li class="portfolio-card">
+                    <li class="portfolio-card" filter-design>
                         <a class='link' href="">
                             <div class="card__thumb">
                                 <img src="./images/portfolio/portfolio-7.jpg"
@@ -201,7 +205,7 @@
                             </div>
                         </a>
                     </li>
-                    <li class="portfolio-card">
+                    <li class="portfolio-card" filter-marketing>
                         <a class='link' href="">
                             <div class="card__thumb">
                                 <img src="./images/portfolio/portfolio-8.jpg"
@@ -218,7 +222,7 @@
                             </div>
                         </a>
                     </li>
-                    <li class="portfolio-card">
+                    <li class="portfolio-card" filter-web>
                         <a class='link' href="">
                             <div class="card__thumb">
                                 <img src="./images/portfolio/portfolio-9.jpg"
@@ -304,6 +308,7 @@
         </div>
 
     </footer>
+    <script src="/js/filter.js"></script>
 </body>
 
 </html>
